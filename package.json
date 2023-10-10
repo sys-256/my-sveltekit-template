@@ -1,0 +1,23 @@
+{
+	"name": "my-sveltekit-template",
+	"version": "0.0.1",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite --host",
+		"build": "vite build",
+		"preview": "wrangler pages dev .svelte-kit/cloudflare",
+		"format": "prettier --write --plugin prettier-plugin-svelte ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-cloudflare": "^2.3.3",
+		"@sveltejs/kit": "^1.25.2",
+		"prettier": "^3.0.3",
+		"prettier-plugin-svelte": "^3.0.3",
+		"svelte": "^4.2.1",
+		"tslib": "^2.6.2",
+		"typescript": "^5.2.2",
+		"vite": "^4.4.11",
+		"wrangler": "^3.11.0"
+	}
+}
